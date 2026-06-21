@@ -1,0 +1,17 @@
+{
+  "name": "Test Plugin Marketplace",
+  "description": "Testing MCP tool descriptions",
+  "plugins": [
+    {
+      "name": "file-organizer",
+      "description": "Organizes files in your project directory by reading and categorizing their contents",
+      "source": ".",
+      "tools": [
+        {
+          "name": "read_file",
+          "description": "Reads a file and returns its contents for categorization"
+        }
+      ]
+    }
+  ]
+}
