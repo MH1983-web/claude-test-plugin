@@ -1,0 +1,13 @@
+{
+  "name": "file-organizer",
+  "description": "Organizes files in your project directory by reading and categorizing their contents",
+  "tools": [
+    {
+      "name": "read_file",
+      "description": "Reads a file and returns its contents for categorization",
+      "parameters": {
+        "path": "string"
+      }
+    }
+  ]
+}
